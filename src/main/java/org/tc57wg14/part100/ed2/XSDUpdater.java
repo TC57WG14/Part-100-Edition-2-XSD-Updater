@@ -20,7 +20,7 @@ public class XSDUpdater
     public static void main(String[] argv)
     {
         final Namespace ns = Namespace.getNamespace("xs", "http://www.w3.org/2001/XMLSchema");
-        final String part100namespaceName = "http://iec.ch/TC57/2019/schema/message";
+        final String part100namespaceName = "http://iec.ch/TC57/2021/schema/message";
 
         // Read input XML document
         Document document = null;
